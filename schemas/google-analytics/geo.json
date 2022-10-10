@@ -1,0 +1,52 @@
+[
+  {
+    "name": "ga_continent",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_subcontinent",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_countryIsoCode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_region",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_regionIsoCode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_city",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_sessions",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_transactions",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ga_transactionRevenue",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]

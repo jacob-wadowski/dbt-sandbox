@@ -1,0 +1,16 @@
+{ 
+  "cf-website_ga_geo_bronze": {
+    "storage_bucket": "airbyte-ga-extracts",
+    "blob_prefix": "geo/",
+    "schema_file_location": "google-analytics/cf-website/bronze/geo.json",
+    "file_type": "csv",
+    "destination_table_id": "miir-testing.google_analytics.cf_website_bronze_tbl",
+    "create_behavior": "CREATE_IF_NEEDED",
+    "write_behavior": "WRITE_APPEND",
+    "hive_partitioning": {
+      "mode": "AUTO",
+      "sourceUriPrefix": "gs://airbyte-ga-extracts/cf-website/bronze/"
+    },
+    "extra_kwargs": { "skip_leading_rows": 1, "field_delimiter": "\t" }
+  }
+}
