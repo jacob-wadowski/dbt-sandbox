@@ -1,0 +1,7 @@
+name: 'sandbox'
+profile: 'sandbox'
+version: 1.0.0
+config-version: 2 
+models:
+  sandbox:
+    +materialized: table # this applies to all models in the current project

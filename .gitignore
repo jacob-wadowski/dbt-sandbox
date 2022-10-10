@@ -1,1 +1,4 @@
 .vscode/launch.json
+logs/
+target/
+dbt_packages/
